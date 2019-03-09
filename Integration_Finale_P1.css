@@ -1,0 +1,82 @@
+/* Navbar */
+.nav
+{
+	display: flex;
+	justify-content: center;
+}
+
+/* Cards */
+
+.card-group
+{
+	display: flex;
+	justify-content: center;
+}
+
+#cardA, #cardB, #cardC
+{
+	display: flex;
+	flex-direction: column;
+	position: static;
+	align-items: center;
+	border: 1px solid #727070;
+}
+
+#cardA .card-textA, #cardB .card-textB, #cardC .card-textC
+{
+	position: relative;
+	bottom: 400px;
+}
+
+.card-body
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.card-textA, .card-textC
+{
+	color: white;
+	border: 2px solid #727070;
+	background-color: #5b5b5b;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.card-textB
+{
+	color: #5b5b5b;
+	font-size: 24px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#cardB:hover .card-textB
+{
+	color: white;
+}
+
+#cardA:hover .card-textA, #cardC:hover .card-textC
+{
+	opacity: 0;
+}
+
+.card-img-top
+{
+	display: flex;
+	opacity: 0.5;
+	width: 400px;
+	height: 450px;
+}
+
+.card-img-top:hover
+{
+	opacity: 1;
+}
+
+span
+{
+	color: orange;
+}
+
+
